@@ -1,5 +1,5 @@
 #CI项目
-name: QCA-6.12-LiBwrt
+name: QCA
 
 #CI计划
 # on:
@@ -32,12 +32,15 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        CONFIG: [IPQ807X-NOWIFI, IPQ807X-WIFI,IPQ60XX-NOWIFI, IPQ60XX-WIFI]
+        #CONFIG: [IPQ807X-NOWIFI, IPQ807X-WIFI,IPQ60XX-NOWIFI, IPQ60XX-WIFI]
         CONFIG: [IPQ60XX-WIFI]
+#LiBwrt        
         SOURCE: [LiBwrt/openwrt-6.x]
         BRANCH: [k6.12-nss]
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [main]
+
+#immortalwrt
+        #SOURCE: [VIKINGYFY/immortalwrt]
+        #BRANCH: [main]
 
       matrix:
 #       CONFIG: [IPQ807X-NOWIFI, IPQ807X-WIFI,IPQ60XX-NOWIFI, IPQ60XX-WIFI]
@@ -74,5 +77,6 @@ jobs:
       WRT_TEST: ${{inputs.TEST}}
 
       CI_NAME: ${{github.workflow}}
+
 
 
