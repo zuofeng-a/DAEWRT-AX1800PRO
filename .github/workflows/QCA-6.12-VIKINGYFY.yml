@@ -41,6 +41,8 @@ jobs:
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
     with:
+      #更新go版本，for tailscale
+      go-version: '1.25.3'
       #编译配置
       WRT_CONFIG: ${{matrix.CONFIG}}
       #默认主题
