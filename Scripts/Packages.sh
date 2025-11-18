@@ -66,6 +66,7 @@ UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 # UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 # UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
 UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
