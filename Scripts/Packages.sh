@@ -68,8 +68,8 @@ UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "master"
 UPDATE_PACKAGE "luci-app-dae" "QiuSimons/luci-app-dae" "next"
 UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
-#UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
-#UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
+UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
+UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
