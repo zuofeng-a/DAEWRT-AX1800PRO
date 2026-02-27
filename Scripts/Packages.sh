@@ -72,7 +72,7 @@ UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 
 UPDATE_PACKAGE "luci-app-diskman" "lisaac/luci-app-diskman" "master"
-UPDATE_PACKAGE "luci-lib-docker" "lisaac/luci-lib-docker" "master"
+
 
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 
